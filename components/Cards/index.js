@@ -36,10 +36,17 @@ axios
     // articleTopics.forEach(aTopic => {
     //   articles.aTopic.forEach(topic => console.log("topic: ", topic));
     // });
+    console.log("bootstrap", articles["javascript"]);
 
-    articles.bootstrap.forEach(topic => {
-      console.log("bootstrap: ", topic);
-      cardsContainer.appendChild(createArticle(topic));
+    articleTopics.forEach(topic => {
+      articles[topic].forEach(topic => {
+        console.log("bootstrap: ", topic);
+        cardsContainer.appendChild(createArticle(topic));
+      });
+      // articles.bootstrap.forEach(topic => {
+      //   console.log("bootstrap: ", topic);
+      //   cardsContainer.appendChild(createArticle(topic));
+      // });
     });
   })
   .catch(error => {

@@ -29,5 +29,5 @@ function createTab(topic) {
   topicElement.classList.add("tab");
   topicElement.textContent = topic;
 
-  return topic;
+  return topicElement;
 }

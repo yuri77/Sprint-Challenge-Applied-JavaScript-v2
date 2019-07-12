@@ -47,7 +47,7 @@ By converting to an array we have access to wide variety to array prototype func
 
 5. What is a component?
 
-reusable code sniped
+reusable functions that create Elements that can be added to the DOM
 
 ### Git Set up
 

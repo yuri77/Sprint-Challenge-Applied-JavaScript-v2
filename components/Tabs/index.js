@@ -22,7 +22,6 @@ axios
   .catch(error => {
     console.log("The API is currently down: ", error);
   });
-console.log("Hello");
 
 function createTab(topic) {
   const topicElement = document.createElement("div");
